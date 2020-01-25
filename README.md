@@ -1,4 +1,4 @@
-# csharp_sale
+# csharp_api
 ตัวอย่าง RESTFul API นี้พัฒนาด้วยภาษา C#.NET
 โดยใช้ Web API Framework และ entity Framework
 ดูรายละเอียดได้ที่ https://docs.microsoft.com/en-us/aspnet/web-api/overview/data/using-web-api-with-entity-framework/
