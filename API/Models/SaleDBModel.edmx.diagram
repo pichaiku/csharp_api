@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="94fa0313136c41129c199f380463d2b6" Name="Diagram1" ZoomLevel="44">
+        <EntityTypeShape EntityType="saledbModel.Customer" Width="1.5" PointX="4.75" PointY="3.625" />
+        <EntityTypeShape EntityType="saledbModel.Department" Width="1.5" PointX="6.75" PointY="3.625" />
+        <EntityTypeShape EntityType="saledbModel.District" Width="1.5" PointX="7" PointY="0.75" />
+        <EntityTypeShape EntityType="saledbModel.Employee" Width="1.5" PointX="8.75" PointY="3.625" />
+        <EntityTypeShape EntityType="saledbModel.Province" Width="1.5" PointX="4.75" PointY="1" />
+        <EntityTypeShape EntityType="saledbModel.PurchaseOrder" Width="1.5" PointX="10.75" PointY="3.625" />
+        <EntityTypeShape EntityType="saledbModel.Subdistrict" Width="1.5" PointX="9.25" PointY="0.875" />
+        <AssociationConnector Association="saledbModel.FK_District_Province" />
+        <AssociationConnector Association="saledbModel.FK_Subdistrict_District" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
