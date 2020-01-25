@@ -31,7 +31,8 @@
     เช่น http://[ชื่อเว็บไซต์ หรือหมายเลข IP Server]/api/employee/1  
 5. ใช้ DELETE method เพื่อลบข้อมูล
     เช่น http://[ชื่อเว็บไซต์ หรือหมายเลข IP Server]/api/employee/1
-
+6. ใช้ POST method เพื่อ Login
+    เช่น http://[ชื่อเว็บไซต์ หรือหมายเลข IP Server]/api/user
 
 # การสร้าง API
 1. สร้างตารางข้อมูลในฐานข้อมูล เช่น ตารางสินค้า (product)
